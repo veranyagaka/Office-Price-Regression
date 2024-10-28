@@ -41,6 +41,6 @@ plt.legend()
 plt.title('Line of Best Fit after 10 Epochs')
 plt.show()
 
-size_to_predict = 61
+size_to_predict = 100
 predicted_price = m * size_to_predict + c
 print(f'Predicted office price for {size_to_predict} sq. ft: {predicted_price}')
